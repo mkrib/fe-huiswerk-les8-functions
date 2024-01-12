@@ -36,9 +36,9 @@ console.log(getEmailDomain("a.wiersma@outlook.com"));
 // }
 
 function typeOfEmail(email) {
-    const domein = email.split('@')[1]
+    const domain = email.split('@')[1]
 
-    switch (domein) {
+    switch (domain) {
         case 'novi-education.nl' :
             return "Student"
             break;
